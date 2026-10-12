@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment files (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating-system junk
+.DS_Store
+Thumbs.db
+Desktop.ini

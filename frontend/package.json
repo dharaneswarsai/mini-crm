@@ -1,0 +1,23 @@
+{
+  "name": "mini-crm-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React + Vite frontend for the Mini CRM & Lead Management System (scaffold only).",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^7.1.0"
+  }
+}

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment files (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# Vite local cache
+.vite/
+node_modules/.vite/
+
+# Logs
+*.log
+
+# Operating-system junk
+.DS_Store
+Thumbs.db
+Desktop.ini
